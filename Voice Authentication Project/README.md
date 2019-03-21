@@ -3,7 +3,8 @@ The following text file describes the purpose of all saved .npy arrays, baseline
 For subsequent models, the variation will be mentioned.
 
 ### DATA
-The data for this project can be downloaded from here: http://openslr.org/12
+The data for this project can be downloaded from here: http://openslr.org/12 </br>
+The speakers data is named speakers.csv
 
 ### BASELINE PARAMETERS:
 sr = 12000 </br>
