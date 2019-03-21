@@ -18,14 +18,14 @@ base_y_test : represents the 20% split of one-hot encoded labels for baseline mo
 base_y_val : represents the 16% split of one-hot encoded labels for baseline model </br>
 weights : represents the balanced speaker weights used in all models
 
-### NOTEBOOKS (in order)
-1. Preparatory.ipynb : </br>
-2. Untitled.ipynb : </br>
-3. Explorartory.ipynb : </br>
-4. Preanalysis.ipynb : </br>
-5. CNN_clean.ipynb : </br>
-6. CNN_other.ipynb : </br>
+### NOTEBOOKS (voice identification)
+1. Preanalysis.ipynb : </br> 
+2. Explorartory.ipynb : </br>
+3. Preparatory.ipynb : </br>
+4. CNN_clean.ipynb : </br>
+5. CNN_other.ipynb : 
 
-### OTHER NOTEBOOKS FOR FUN
-CQCC.ipynb : </br>
-TIFF.ipynb : 
+### NOTEBOOKS (voice authentication)
+CQCC.ipynb : Exploring alternate feature extraction methods </br>
+TIFF.ipynb : Converts the melgrams to a TIFF image </br>
+Untitled.ipynb : Locates hidden files that corrupted the code for the images
