@@ -3,6 +3,7 @@ This project was performed as an independent study during my Masters of Data Ana
 
 ### DATA SOURCE
 The data for this project can be downloaded from here: http://openslr.org/12 </br>
+There are two different types of data: 'clean' and 'other,' which has background noise and other disruptions
 
 ### FILES
 The speakers data is named speakers.csv </br>
