@@ -1,5 +1,5 @@
 # README
-This folder contains all of the Python Notebooks
+This folder contains all of the Python Notebooks. The details below outline the standard of parameters used for model building, the naming convention for the input arrays, and a high-level overview of the purpose for each notebook. The notebooks are best viewed in the order outlined below to precisely follow my thought process.
 
 ### BASELINE PARAMETERS:
 sr = 12000 </br>
@@ -17,3 +17,15 @@ base_y_train : represents the 64% split of one-hot encoded labels for baseline m
 base_y_test : represents the 20% split of one-hot encoded labels for baseline model </br>
 base_y_val : represents the 16% split of one-hot encoded labels for baseline model </br>
 weights : represents the balanced speaker weights used in all models
+
+### NOTEBOOKS (in order)
+1. Preparatory.ipynb : </br>
+2. Untitled.ipynb : </br>
+3. Explorartory.ipynb : </br>
+4. Preanalysis.ipynb : </br>
+5. CNN_clean.ipynb : </br>
+6. CNN_other.ipynb : </br>
+
+### OTHER NOTEBOOKS FOR FUN
+CQCC.ipynb : </br>
+TIFF.ipynb : 
