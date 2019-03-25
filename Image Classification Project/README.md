@@ -9,6 +9,6 @@ There are over 10,000 images of dogs from 120 different breeds. The data used in
 Notebooks : contains all python code </br>
 labels.csv : labels for original dog breed data </br>
 labels_new.csv : labels for dog breeds post-clustering </br>
-images_resized.zip : standardized images of original train.zip images to pixel size 100x100 (available upon request)
+images_resized.zip : standardized images of original train.zip images to pixel size 100x100 (available upon request) </br>
 Final Report.pdf : the final paper for this project </br>
 Final Presentation.pptx : the presentation with summarized results
