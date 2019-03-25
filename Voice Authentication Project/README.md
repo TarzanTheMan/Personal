@@ -1,4 +1,4 @@
-# README
+# KERAS VOICE IDENTIFICATION & AUTHENTICATION
 This project was performed as an independent study during my Masters of Data Analytics program at UTSA under Dr. Paul Rad. The purpose of this project is broken into two phases; first, to explore speaker identification using MFCC feature extraction for various CNN models, and second, to explore speaker authentication using MFCC or CQCC feature extraction and TIFF-converted images of the melgrams for various GAN models*.
 
 ### DATA SOURCE
