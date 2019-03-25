@@ -1,4 +1,4 @@
-# README
+# KERAS MUSIC GENRE CLASSIFICATION
 This project was completed as a final for a Big Data Technology class during my Masters of Data Analytics program at UTSA under Dr. Paul Rad. The purpose of this project is to analyze eight different music genres and create a neural network capabale of accurately classifying the music via imported audio clips.
 
 ## DATA
