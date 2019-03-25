@@ -7,3 +7,5 @@ There are over 8,000 songs (30-second clips) from 8 balanced genres. The GitHub 
 
 ## FILES & FOLDERS
 Notebooks : contains all python code
+Project.pdf : the final paper for this project
+Presentation.pptx : the presentation with summarized results
