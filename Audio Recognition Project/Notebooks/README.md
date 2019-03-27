@@ -9,10 +9,13 @@ hop_length = 512 or ~43 ms
 
 ### NOTEBOOKS
 **1. Original.ipynb** : </br> 
-**2. Explorartory-2D.ipynb** : </br>
+**2. Exploratory-2D.ipynb** : </br>
 **3. Exploratory-3D.ipynb** : </br>
 **4. Exploratory-4D.ipynb** : </br>
-**5. CNN_using_2D.ipynb** : </br>
+**5. 2D USED.ipynb** : </br>
+**6. 3D USED.ipynb** : </br>
+**7. 4D USED.ipynb** : </br>
 
 ### OTHER NOTEBOOKS
-**Loopwork.ipynb** : 
+**Loopwork.ipynb** : </br>
+**CNN_Music_Genre_Tagging** :
