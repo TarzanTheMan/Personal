@@ -9,12 +9,10 @@ This folder contains various foundational topics in data science commonly utiliz
 **Data_Cleaning.ipynb** : </br>
 **Data_Portability.ipynb** : </br>
 **Feature_Selection.ipynb** : </br>
-**Practice.ipynb** : </br>
-**PracticeScrape.ipynb** : </br>
+**Practice_Scrape.ipynb** : </br>
 **Random_undersampling.ipynb** : </br>
-**RegEx.ipynb** : </br> 
-**Selenium.ipynb** : </br>
+**Reg_Ex.ipynb** : </br> 
 **SMOTE_oversampling.ipynb** : </br>
 **Text_Analytics.ipynb** : </br>
 **Text_Processing_Pipeline.ipynb** : </br>
-**WordNet.ipynb** : </br>
+**Word_Net.ipynb** : </br>
