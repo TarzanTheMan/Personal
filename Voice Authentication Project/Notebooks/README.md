@@ -19,13 +19,13 @@ base_y_val : represents the 16% split of one-hot encoded labels for baseline mod
 weights : represents the balanced speaker weights used in all models
 
 ### NOTEBOOKS (voice identification)
-1. Preanalysis.ipynb : Verifies all files are stable </br> 
-2. Explorartory.ipynb : Performs MFCC feature extraction </br>
-3. Preparatory.ipynb : Performs the train/test split and other tasks </br>
-4. CNN_clean.ipynb : Model-building process for CNN for the 'clean' data set </br>
-5. CNN_other.ipynb : Model-building process for CNN for the 'other' data set
+**1. Preanalysis.ipynb** : Verifies all files are stable </br> 
+**2. Explorartory.ipynb** : Performs MFCC feature extraction </br>
+**3. Preparatory.ipynb** : Performs the train/test split and other tasks </br>
+**4. CNN_clean.ipynb** : Model-building process for CNN for the 'clean' data set </br>
+**5. CNN_other.ipynb** : Model-building process for CNN for the 'other' data set
 
 ### NOTEBOOKS (voice authentication)
-CQCC.ipynb : Explores alternate feature extraction methods </br>
-TIFF.ipynb : Saves the specshow distribution plot as a TIFF image </br>
-Untitled.ipynb : Locates hidden files that corrupted the code for the images
+**CQCC.ipynb** : Explores alternate feature extraction methods </br>
+**TIFF.ipynb** : Saves the specshow distribution plot as a TIFF image </br>
+**Untitled.ipynb** : Locates hidden files that corrupted the code for the images
