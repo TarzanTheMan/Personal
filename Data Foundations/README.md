@@ -4,8 +4,8 @@ This folder contains various foundational topics in data science commonly utiliz
 ### NOTEBOOKS
 **Basic_Crawler.ipynb** : </br> 
 **Basic_Crawler_API.ipynb** : </br>
-**Burrows_HW4_WebScrapePart1.ipynb** : </br> 
-**Burrows_HW4_WebScrapePart2.ipynb** : </br>
+**Burrows_WebScrape_Part1.ipynb** : </br> 
+**Burrows_WebScrape_Part2.ipynb** : </br>
 **Data_Cleaning.ipynb** : </br>
 **Data_Portability.ipynb** : </br>
 **Feature_Selection.ipynb** : </br>
