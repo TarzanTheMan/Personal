@@ -8,8 +8,11 @@ n_fft = 2048 or ~171 ms </br>
 hop_length = 512 or ~43 ms 
 
 ### NOTEBOOKS
-1. Preanalysis.ipynb : Verifies all files are stable </br> 
-2. Explorartory.ipynb : Performs MFCC feature extraction </br>
-3. Preparatory.ipynb : Performs the train/test split and other tasks </br>
-4. CNN_clean.ipynb : Model-building process for CNN for the 'clean' data set </br>
-5. CNN_other.ipynb : Model-building process for CNN for the 'other' data set
+**1. Original.ipynb** : </br> 
+**2. Explorartory-2D.ipynb** : </br>
+**3. Exploratory-3D.ipynb** : </br>
+**4. Exploratory-4D.ipynb** : </br>
+**5. CNN_using_2D.ipynb** : </br>
+
+### OTHER NOTEBOOKS
+**Loopwork.ipynb** : 
