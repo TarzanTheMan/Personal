@@ -18,4 +18,4 @@ hop_length = 512 or ~43 ms
 
 ### OTHER NOTEBOOKS
 **Loopwork.ipynb** : </br>
-**CNN_Music_Genre_Tagging** :
+**CNN_Music_Genre_Tagging.ipynb** :
