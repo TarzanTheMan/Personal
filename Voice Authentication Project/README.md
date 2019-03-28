@@ -3,7 +3,7 @@ This project was performed as an independent study during my Masters of Data Ana
 
 ### DATA SOURCE
 The data for this project can be downloaded from here: http://openslr.org/12 </br>
-There are two different types of data: 'clean' and 'other,' which has background noise and other disruptions
+There are two different types of data: 'clean' and 'other,' which has background noise and other disruptions. Additionally, there are options for larger data sets, but due to computational restraints I only utilized the 100 hours of training data.
 
 ### FILES & FOLDERS
 **Notebooks** : contains all python code </br>
