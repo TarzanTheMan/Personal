@@ -10,4 +10,4 @@ There are two different types of data: 'clean' and 'other,' which has background
 **speakers.csv** : list of speakers associated with each audio clip </br>
 **Paper.pdf** : the final paper for this project
 
-*The second phase has not been completed due to time constraints within the COB. Continued research is ongoing.
+*<sup>+</sup>The second phase has not been completed due to time constraints within the COB. Continued research is ongoing.*
