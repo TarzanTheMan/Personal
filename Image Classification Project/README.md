@@ -1,5 +1,5 @@
 # KERAS DOG BREED CLASSIFICATION
-This project was completed as a final for an Applications class during my Masters of Data Analytics program at UTSA under Dr. David Han. The purpose of this project is to analyze 120 imbalanced dog breeds and create a neural network capabale of accurately classifying the images via imported .jpg files.
+This project was completed as a final for an Applications class during my Masters of Data Analytics program at UTSA under Dr. David Han. The purpose of this project is to analyze 120 imbalanced dog breeds and create a neural network capabale of accurately classifying the imported .jpg files.
 
 ## DATA
 The data for this project can be downloaded from here: https://www.kaggle.com/c/dog-breed-identification/data </br>
