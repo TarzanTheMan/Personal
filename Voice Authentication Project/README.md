@@ -1,5 +1,5 @@
 # KERAS VOICE IDENTIFICATION & AUTHENTICATION
-This project was performed as an independent study during my Masters of Data Analytics program at UTSA under Dr. Paul Rad. The purpose of this project is broken into two phases; first, to explore speaker identification using MFCC feature extraction for various CNN models, and second, to explore speaker authentication using MFCC or CQCC feature extraction and TIFF-converted images of the melgrams for various GAN models*. Voice spoofing is a critical security concern in the growing dependence on IoT (internet of things) devices, which influenced the direction of this project.
+This project was performed as an independent study during my Masters of Data Analytics program at UTSA under Dr. Paul Rad. The purpose of this project is broken into two phases; first, to explore speaker identification using MFCC feature extraction for various CNN models, and second, to explore speaker authentication using MFCC or CQCC feature extraction and TIFF-converted images of the melgrams for various GAN models<sup>+</sup>. Voice spoofing is a critical security concern in the growing dependence on IoT (internet of things) devices, which influenced the direction of this project.
 
 ### DATA SOURCE
 The data for this project can be downloaded from here: http://openslr.org/12 </br>
