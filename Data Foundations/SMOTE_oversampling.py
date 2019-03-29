@@ -18,7 +18,7 @@ print("Original dataset shape {}".format(Counter(y)))
 print("New dataset shape {}".format(Counter(y_res)))
 
 #write the arrays to file
-np.savetxt('C:/Users/adam_/Documents/MSDA/Data Foundations/Classworks/Sampling/oversampling_X_before.csv', X, delimiter = ',', newline = '\n')
-np.savetxt('C:/Users/adam_/Documents/MSDA/Data Foundations/Classworks/Sampling/oversampling_X_after.csv', X_res, delimiter = ',', newline = '\n')
-np.savetxt('C:/Users/adam_/Documents/MSDA/Data Foundations/Classworks/Sampling/oversampling_y_before.csv', y, delimiter = ',', newline = '\n')
-np.savetxt('C:/Users/adam_/Documents/MSDA/Data Foundations/Classworks/Sampling/oversampling_y_after.csv', y_res, delimiter = ',', newline = '\n')
+np.savetxt('/Adam/oversampling_X_before.csv', X, delimiter = ',', newline = '\n')
+np.savetxt('/Adam/oversampling_X_after.csv', X_res, delimiter = ',', newline = '\n')
+np.savetxt('/Adam/oversampling_y_before.csv', y, delimiter = ',', newline = '\n')
+np.savetxt('/Adam/oversampling_y_after.csv', y_res, delimiter = ',', newline = '\n')
