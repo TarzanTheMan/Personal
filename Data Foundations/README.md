@@ -10,7 +10,7 @@ This folder contains various foundational topics in data science commonly utiliz
 **Random_undersampling.py** : practice problem performing a resampling technique </br>
 **Reg_Ex.py** : regular expressions used to search for a speicific pattern </br> 
 **SMOTE_oversampling.py** : practice problem performing a resampling technique </br>
-**Text_Analytics.py** : </br>
+**Text_Analytics.py** : NLTK corpus analyzing lexical properties </br>
 **Text_Processing_Pipeline.py** : NLTK practice including lemmatization, stoplists, and tokenization </br>
 **WebScrape_Part1.py** : complete a webscrape on craiglists for all xboxs sold in Portland, Oregon </br> 
 **WebScrape_Part2.py** : advanced webscrape with homemade functions </br>
