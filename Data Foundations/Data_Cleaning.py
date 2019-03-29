@@ -2,8 +2,9 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
  
-dir='C:/Users/adam_/Documents/MSDA/Data Foundations/Homeworks/'
-pima=pd.read_csv(dir+'pima-indians-diabetes.data.csv')
+#change the 'dir' to your location
+dir='/Adam/'
+pima=pd.read_csv(dir+'pima-indians-diabetes.data.csv') #change .csv file to whatever you want
 print(pima.shape) #tell me how many rows, columns the dataframe has
  
 #examine whether there are missing values
@@ -88,29 +89,4 @@ with open("testfile.csv", "wb") as file:
     file.write(b'A,B\n')
     np.savetxt(file, df, fmt="%s", delimiter=',')
 file.close()
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
