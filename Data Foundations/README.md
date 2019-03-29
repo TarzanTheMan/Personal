@@ -8,10 +8,10 @@ This folder contains various foundational topics in data science commonly utiliz
 **Feature_Selection.py** : </br>
 **Practice_Scrape.py** : </br>
 **Random_undersampling.py** : practice problem performing a resampling technique </br>
-**Reg_Ex.py** : </br> 
+**Reg_Ex.py** : regular expressions used to search for a speicific pattern </br> 
 **SMOTE_oversampling.py** : practice problem performing a resampling technique </br>
 **Text_Analytics.py** : </br>
-**Text_Processing_Pipeline.py** : </br>
+**Text_Processing_Pipeline.py** : NLTK practice including lemmatization, stoplists, and tokenization </br>
 **WebScrape_Part1.py** : complete a webscrape on craiglists for all xboxs sold in Portland, Oregon </br> 
 **WebScrape_Part2.py** : advanced webscrape with homemade functions</br>
-**Word_Net.py** : semantically-enriched thesaurus, part of the NLTK package</br>
+**Word_Net.py** : semantically-oriented English dictionary with richer content than a thesaurus </br>
