@@ -91,26 +91,3 @@ ps=PorterStemmer()
 example_words=['deliver','delivering','delivered']
 for w in example_words:
     print(ps.stem(w))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
