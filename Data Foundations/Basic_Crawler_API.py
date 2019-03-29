@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 29 @way too late in th evening O'clock 2017
-
-@author: Eric
-"""
 # Import the necessary resources
 # In this case, urllib.request is the aspect of urllib we need to allow for headers to be set and to make urlopen calls
 # urllib.parse is a utility featureset in urllib that makes parsing a url into major parts simpler than writing our own split and check function
