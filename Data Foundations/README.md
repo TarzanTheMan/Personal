@@ -3,8 +3,6 @@ This folder contains various foundational topics in data science commonly utiliz
 
 ### NOTEBOOKS
 **Basic_Crawler_API.py** : </br>
-**WebScrape_Part1.py** : </br> 
-**WebScrape_Part2.py** : </br>
 **Data_Cleaning.py** : </br>
 **Data_Portability.py** : </br>
 **Feature_Selection.py** : </br>
@@ -14,4 +12,6 @@ This folder contains various foundational topics in data science commonly utiliz
 **SMOTE_oversampling.py** : </br>
 **Text_Analytics.py** : </br>
 **Text_Processing_Pipeline.py** : </br>
+**WebScrape_Part1.py** : </br> 
+**WebScrape_Part2.py** : </br>
 **Word_Net.py** : </br>
