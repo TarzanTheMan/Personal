@@ -1,34 +1,12 @@
-"""
-Created on Wed Nov 30 @way too late in th evening O'clock 2017
-
-@author: Eric
-"""
-# INSTRUCTIONS: In the code below you will find each code
-# section has either a "BONUS" or a "REQUIRED" comment tag
-# at the front. If it has a "REQUIRED" comment tag, then it is
-# part of the homework assignment and you must provide comments
-# interpretting that portion of the code. Ideal comments will
-# indicate what the code is for and, if it is a function, what
-# the function does, what it takes in as input (if anything) and what
-# it provides as output (if anything)
-# The "BONUS" sections carry the same comment requirements but
-# are NOT REQUIRED for a full score...however, they allow for
-# extra points. The "BONUS" sections are ones you may not be familiar with.
-# HINT: duckduckgo.com is YOUR FRIEND, there is NO SHAME in using
-# any resources available to you to UNDERSTAND something.
-
-# REQUIRED
 import urllib.request #functions and classes that help open URLs
 import urllib.parse #break URL strings up in components, combine components back to URL string, convert URLs
 from bs4 import BeautifulSoup #library for pulling data out of HTML files (navigating, searching, and modifying the parse tree)
 import re #provides regular expression matching operations
 
-# BONUS
 from bs4.element import Comment #special type of NavigableString; add something extra to the string (comment has special formatting in an HTML document)
 from string import ascii_lowercase #all lowercase letters (a-z), value is not locale-dependent and won't change
 import random #implements pseudo-random number generators for various distributions
 
-# REQUIRED
 # This is a function that takes in a URL and returns it if evaluates true, in the sense that the URL
 # is qualified=it is a complete URL with network location=has enough information to be reachable; else the
 # function returns a URL joined with a base (start) if evaluates false
@@ -38,7 +16,6 @@ def ensure_absolute(url):
     else:
         return urllib.parse.urljoin(start,url)
 
-# REQUIRED
 # This is a function that accepts one or more urls as a parameter and returns a list of good urls. Good
 # urls are considered qualified by the following: have been evaluted by the ensure_absolute function,
 # have the same network location as the base url, match a wikipedia path, and have an empty query, fragment,
@@ -60,7 +37,6 @@ def ensure_urls_good(urls):
             result += [url]
     return result #return the list of urls
 
-# REQUIRED
 # This is a function that makes a URL request and returns the page source as a string
 # Note that we are setting a commonly used header called user-agent to a commonly set value
 # This is because many popular webservers check the user-agent as a basic way to filter out crawlers or spambots
@@ -72,7 +48,6 @@ def getsource(url):
     page_soup=BeautifulSoup(page_html,"html.parser") #applying BS to the obtained HTML
     return [page_soup, page_html]
 
-# REQUIRED
 # This is a function that accepts pagesoup as input, which is the HTML parsed text using Beautiful Soup.
 # An empty list is initialized. The function loops through each anchor in pagesoup by finding tags, then
 # adds 'href' to the result list. The list is updated to the result list after being evaluated by the 
@@ -85,7 +60,6 @@ def getanchors(pagesoup):
     result = ensure_urls_good(result) #perform function described above and then return the result
     return result
 
-# BONUS
 # This is a function that takes an element as a parameter and determines if the element is part of a
 # specific parent class or Comment. If it's not then the element has a visible tag, which will need to be
 # removed when parsing the text.
@@ -98,7 +72,6 @@ def tag_visible(element):
         return False
     return True
 
-# BONUS
 # This is a function that accepts the read data and parses using Beautiful Soup. The unfiltered text data
 # is stored in a variable called texts, and then text is stored in another variable minus the visible tags.
 # The function returns the text joined after stripping the extra whitespace from the front and back.
@@ -108,7 +81,6 @@ def text_from_html(page_html):
     visible_texts = filter(tag_visible, texts)  #filter out the visible tags from the parsed text
     return u" ".join(t.strip() for t in visible_texts) #return the text
 
-# BONUS
 # This is a function that counts the number of times each letter shows up in texts. The letters and their
 # corresponding counts are stored in a dictionary, which is returned after it traverses the alphabet.
 def count_letters(texts):
@@ -118,7 +90,6 @@ def count_letters(texts):
         alphabet[letter] = texts.count(letter) #count the number of times each letter appears and add to the dictionary
     return alphabet #return dictionary
 
-# BONUS
 # This is a function that accepts texts and the desired number of ngrams as parameters. After looping through
 # all pattern matches in text, the conditional statements create a list of ngram word pairs that is updated
 # to a dictionary and then returned. *Think bigrams in this example, however we could change n to be any
@@ -153,7 +124,6 @@ def count_ngrams(texts, n):
                 grams += [m.group(1)] #add the next match to grams (index 1)
     return ngrams #returns a dictonary with the ngram:count as the key:value pairs
 
-# BONUS
 # This is a function that combines key:value pairs for dictionary 1 and dictionary 2. The function loops
 # through all keys in either dict1 or dict2 and .get function grabs the value associated with each key,
 # adds them together (0 is default if key is not in dictionary, since dictionaries might not contain the
@@ -162,7 +132,6 @@ def combinedicts(dict1,dict2):
     result = { k: dict1.get(k, 0) + dict2.get(k, 0) for k in set(dict1) | set(dict2) }
     return result
 
-# REQUIRED
 # This is a function that writes the dictionary to a csv file. The function accepts a dictionary, header,
 # and data. After opening the file, it writes the headers followed by a newline. Then it loops through
 # each item in reverse sorted order and writes the item and data associated with the item to csv, followed
@@ -178,7 +147,6 @@ def write_dict_to_csv(fname,header,data):
     f.close() #close the file
     return
 
-# REQUIRED
 # This is a function that accepts a parameter for a url link and the number of pages to crawl. This function
 # implements most of the functions defined in this example. It loops through the number of times specified,
 # by the limit parameter, and performs conditional statements in order to create two dictionaries. These
@@ -212,22 +180,16 @@ def crawl(url, limit):
             result2 = ngramfreqs
     return [result1, result2] #return a list containing both dictionaries
 
-# REQUIRED
 # The base URL for the web scraping
 start="https://en.wikipedia.org/wiki/Special:Random"
 
-# REQUIRED
 # Assign the number of pages to crawl, will be used as the limit in the crawl function
 pagestocrawl = 20
 
-# BONUS
 # Assign the number of ngram levels, will be used as the n in count_ngrams function
 desired_ngram_level = 2
 
-# REQUIRED
 # Assigns a list of dictionaries to freq variable
 freqs = crawl(start,pagestocrawl) #contains the letterfreqs and ngramfreqs
 write_dict_to_csv('letter_freqs.csv','letter,frequency',freqs[0]) #writes the letter frequencies to csv file
 write_dict_to_csv('ngram_freqs.csv','ngram,frequency',freqs[1]) #writes the ngram frequencies to csv file
-
-
