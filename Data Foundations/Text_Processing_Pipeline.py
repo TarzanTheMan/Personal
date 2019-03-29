@@ -79,10 +79,9 @@ cos_vec1_vec3=spatial.distance.cosine(vec1,vec3)
 print('Dist1_2 ',cos_vec1_vec2)
 print('Dist2_3 ',cos_vec2_vec3)
 print('Dist1_3 ',cos_vec1_vec3)
- 
-#For your homework, you'll be creating matrices (binary matrix, TF matrix, TF-norm matrix, TF-IDF matrix)
-#So you'll need to access vectors (rows) from respective matrices
- 
+
+#creating matrices (binary matrix, TF matrix, TF-norm matrix, TF-IDF matrix)
+
 #create binary feature space vector (really only one in this case)
 #this is stupid to do when only have one doc, but sets you up for your homework
 lexicon=set(frank_tok_norm_stop_stem) #set of unique terms in Frank
@@ -117,8 +116,7 @@ for c in lexicon:
     count=count+1
 print(matrix_TF)
  
-'''Now you create the rest of the matrices
-Advice/hints: 
+'''
 TF_norm ... value is count/total tokens (after norm, stoplist, stemming)
 TF-IDF ... value is TF * IDF
 '''
@@ -139,27 +137,3 @@ vector_idf
 #again... modify code to handle multiple docs
  
 #cos_text1_text2=spatial.distance.cosine(matrix_TFIDF[1],matrix_TFIDF[2])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
