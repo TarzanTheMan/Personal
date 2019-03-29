@@ -14,4 +14,4 @@ This folder contains various foundational topics in data science commonly utiliz
 **Text_Processing_Pipeline.py** : </br>
 **WebScrape_Part1.py** : complete a webscrape on craiglists for all xboxs sold in Portland, Oregon </br> 
 **WebScrape_Part2.py** : advanced webscrape with homemade functions</br>
-**Word_Net.py** : </br>
+**Word_Net.py** : semantically-enriched thesaurus, part of the NLTK package</br>
